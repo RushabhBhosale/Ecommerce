@@ -8,7 +8,7 @@ export default function Cart() {
    console.log(cartDetails)
 
    return (
-      <div className="container xl:max-w-screen-xl mx-auto py-12 px-6">
+      <div className="container xl:max-w-screen-xl mx-auto py-12 ">
          {cartCount > 0 ? (
             <>
                <h2 className="text-4xl font-semibold">Your shopping cart</h2>
